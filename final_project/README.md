@@ -1,5 +1,5 @@
-# Finance Network (Final Project)
-#### Video Demo:  <https://www.youtube.com/watch?v=zcqUrVN-Xg0> (This video is outdated. You can now access real stock prices via the Yahoo API).
+# Finance Network
+
 #### Description:
 The Finance Network is a financial social network designed to allow users to create and manage their investment portfolios while connecting with other users to share and follow portfolios. The platform, inspired by the design and functionalities of Facebook, is built using Flask, a Python web framework, and aims to facilitate interaction among investors, promoting the sharing of investment strategies and collaboration.
 
