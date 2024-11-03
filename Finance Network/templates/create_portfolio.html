@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="container">
+    <h1>Create a New Portfolio</h1>
+    <form action="{{ url_for('create_portfolio') }}" method="post">
+        <div class="form-group">
+            <label for="name">Portfolio Name:</label>
+            <input type="text" id="name" name="name" class="form-control" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Create</button>
+    </form>
+    <a href="{{ url_for('index') }}" class="btn btn-secondary mt-3">Go Back</a>
+</div>
+{% endblock %}
